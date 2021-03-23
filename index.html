@@ -84,14 +84,66 @@
         </p>
         <p>
             Melhor demonstrar com um exemplo né? Então faz assim: 
-            <ul>
+            <ol>
                 <li>Entra aqui nesse cara, que é o <a target="_blank" href="https://github.com/carlosbecker2077/tutorial-git-github">meu repositório</a>, mais precisamente o repositório desse tutorial;</li>
                 <li>Clicar no botão verde escrito "Code";</li>
                 <li>Abrir com GitHub Desktop;</li>
                 <li>Escolher onde salvar;</li>
-            </ul>
-            
+                <li>E era isso!</li>
+            </ol>
         </p>
+        <h3>2.2 Atualizando os repositórios (Fetch)</h3>
+        
+        <p>O Fetch é basicamente para verificar se tem alguma atualização no repositório. Sempre que eu ou tu formos mexer em algo, fazer primeiro o fetch para ver se não há nenhuma modificação.</p>
+        <p>Para fazer o fetch:</p>
+        <ol>
+            <li>Logo abaixo de File tem um menu dropdown "Current repository", aqui é onde tu vai poder navegar entre os repositórios;</li>
+            <li>Seleciona o repositório que tu quer;</li>
+            <li>E clica em fetch, que vai ser a última opção na mesma linha do "Current repository";</li>
+            <li>E agora o teu projeto está atualizado.</li>
+        </ol>
+        <h3>2.3 Registrando um repositório</h3>
+        
+        <ol>
+            <li>Ir em File > New Repository;</li>
+            <li>Colocar o nome (Ex o nome da empresa);</li>
+            <li>Indicar o caminho de onde será criada a pasta do repositório;</li>
+            <li>Inicializar com o README.md é opcional;</li>
+            <li>Selecionar Delphi ou a linguagem a ser tratada no Git Ignore; <br>O Git Ignore serve para ignorar os arquivos binários e também é possível adicionar outros arquivos a serem ignorados como .pdf, .jpg, .conf...</li>
+            <li>Acredito que a licença seja só para o caso de disponibilizar o projeto para o público. Deixa sem;</li>
+            <li>E "Create Repository".</li>
+            
+        </ol>
+        <h3>2.4 Fazendo o Commit</h3>
+        <p>Importante ressaltar que <strong>commit</strong> e <strong>push</strong> são coisas diferentes. O <strong>commit</strong> versiona os arquivos localmente no teu computador, enquanto o <strong>push</strong> é o que publica no GitHub. É bem estranho no início já que no SVN é o commit que faz a mágica acontecer, então por vezes tu vai fazer o commit achando que foi, mas na real vai estar faltando o push para que o projeto seja realmente "empurrado" para o GitHub.</p>
+
+        <ol>
+            <li>Copiar todos os arquivos que estão na pasta do projeto para a pasta recém criada;</li>
+            <li>Os arquivos copiados agora aparecerão no Git Desktop como "Untracked Files";</li>
+            <li>Dá uma olhada nos arquivos adicionados e procura algum arquivo que tu não queira enviar, como um .pdf ou um .rar;</li>
+            <ul>
+                <li>Se for um arquivo específico para ser ignorado, clica com o botão direito no arquivo e "Add file to .gitignore";</li>
+                <li>Se for uma extensão inteira de arquivo a ser ignorado, clica com o botão direito e "Add file extension to .gitignore";</li>
+            </ul>
+            <li>Escrever um nome para o commit, geralmente vai ser algo do tipo "Incluido campo tal", mas se for o primeiro commit pode ser "Initial commit" ou "Primeiro commit";</li>
+            <li>E commitar!</li>
+        </ol>
+        <h3>2.5 Fazendo o Push</h3>
+        <ol>
+            <li>Se for a primeira vez, "Publish repository". Se for qualquer outra vez "Push" ou a combinação de teclas "Ctrl + P"</li>
+            <li>Colocar o nome que vai aparecer no GitHub;</li>
+            <li>Manter privado ou não (o GitHub permite até 3 pessoas colaborando em um projeto privado, se for publico é ilimitado)</li>
+            <li>Escolher uma organização</li>
+            <ul>
+                <li>A organização serve para que tu não crie o repositório na tua conta, mas na da empresa. É recomendável a criação de uma organização para que fique tudo mais centralizado. Dá pra criar uma Provisual ou publicar tudo no Inforserv que já existe. Fica pra ti essa opção.</li>
+                <li>A organização vai aparecer ali se a tua conta for associada a uma</li>
+            </ul>
+            <li>Clicar em "Publish"</li>
+            <li>E é isso! Agora dá pra ir lá no teu GitHub pra ver se tá lá.</li>
+        </ol>
+        
+
+        
 
     </main>
 </body>
